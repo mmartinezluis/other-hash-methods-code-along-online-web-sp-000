@@ -26,8 +26,10 @@ def get_the_values(groceries)
   #code your solution here!
   other_values=[ ]
   raw_list=groceries.values
-  raw_list.each do |item|
+  raw_list.each do |array|
+    array.each do |item|
       other_values << item
+    end
   end
   other_values
 end
