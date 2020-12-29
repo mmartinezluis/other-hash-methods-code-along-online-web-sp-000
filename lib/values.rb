@@ -18,18 +18,5 @@ def get_the_values(groceries)
   end
   my_values
 end
-#groceries.each do |category, list|
-#  category.values
-#end
 
-def get_the_values(groceries)
-  #code your solution here!
-  other_values=[ ]
-  raw_list=groceries.values
-  raw_list.each do |array|
-    array.each do |item|
-      other_values << item
-    end
-  end
-  other_values
-end
+
