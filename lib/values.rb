@@ -15,8 +15,9 @@ def get_the_values(groceries)
     list.each do |element|
       my_values << element
     end
+    my_values
   end
-  my_values
+
 end
 #groceries.each do |category, list|
 #  category.values
