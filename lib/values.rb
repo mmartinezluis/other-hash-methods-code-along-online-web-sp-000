@@ -24,10 +24,10 @@ end
 
 def get_the_values(groceries)
   #code your solution here!
-  my_values=[ ]
+  other_values=[ ]
   raw_list=groceries.values
   raw_list.each do |item|
-      my_values << item
+      other_values << item
   end
-  my_values
+  other_values
 end
