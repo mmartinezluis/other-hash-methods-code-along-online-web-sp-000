@@ -21,3 +21,13 @@ end
 #groceries.each do |category, list|
 #  category.values
 #end
+
+def get_the_values(groceries)
+  #code your solution here!
+  my_values=[ ]
+  raw_list=groceries.values
+  raw_list.each do |item|
+      my_values << item
+  end
+  my_values
+end
